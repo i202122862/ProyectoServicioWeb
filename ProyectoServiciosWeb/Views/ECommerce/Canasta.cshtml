@@ -1,0 +1,72 @@
+﻿@model IEnumerable<ProyectoServiciosWeb.Models.Registro>;
+
+@{
+    ViewBag.Title = "Supermercado Wong";
+}
+
+<h2 style="text-align:center">Productos Seleccionados</h2>
+
+<p>
+    @Html.ActionLink("Ir al Portal", "Portal", null, new { @class = "btn btn-outline-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.idproducto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.umedida)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.precio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cantidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.stotal)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.idproducto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.umedida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.precio)
+            </td>
+            <!--agregar un formulario para actualizar o eliminar un registro-->
+            @using (Html.BeginForm("Actualizar", "ECommerce", FormMethod.Post))
+            {
+                @Html.Hidden("idproducto", item.idproducto)
+                <td>
+                    @Html.TextBox("cantidad", item.cantidad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.stotal)
+                </td>
+                <td>
+                    <input type="submit" value="Actualizar" class="btn btn-outline-success" /> |
+                    @Html.ActionLink("Eliminar", "Delete", new { id = item.idproducto }, new { @class = "btn btn-outline-danger" })
+                </td>
+            }
+        </tr>
+    }
+    <tr>
+        <td colspan="5">Monto del Pedido</td>
+        <td>@Model.Sum(x => x.stotal)</td>
+    </tr>
+
+</table>

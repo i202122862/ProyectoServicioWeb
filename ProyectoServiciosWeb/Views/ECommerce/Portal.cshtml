@@ -1,0 +1,80 @@
+﻿@model IEnumerable<ProyectoServiciosWeb.Models.Producto>;
+
+
+@{
+    ViewBag.Title = "Supermercado Wong";
+}
+<style>
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid
+    }
+</style>
+
+<h2 style="text-align:center">Supermercado Wong</h2>
+
+<p>
+    @Html.ActionLink("Ir a la Canasta", "Canasta", null, new { @class = "btn btn-outline-danger" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.idproducto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.umedida)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.precio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.stock)
+        </th>
+        <th></th> <!--imagenes-->
+        <th></th><!--link agregar a la session-->
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.idproducto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.umedida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stock)
+            </td>
+            <td>
+                <!--Session imagen-->
+                <img src="@Url.Content($"~/images/{item.idproducto}.jpg")" />
+            </td>
+            <td>
+                @if (item.stock > 0)
+                {
+                    @Html.ActionLink("Agregar", "Agregar", new { id = item.idproducto },
+                             new { @class = "btn btn-outline-success" })
+                }
+                else
+                {
+                    <label class="form-label">Stock Agotado</label>
+
+                }
+
+            </td>
+        </tr>
+    }
+
+</table>

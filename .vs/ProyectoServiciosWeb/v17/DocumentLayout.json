@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\janto\\OneDrive\\Estudios\\Cibertec\\servWebI\\proyecto\\ProyectoServiciosWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F59685B-2FEA-4B58-A1E7-6F020802DBE4}|ProyectoServiciosWeb\\ProyectoServiciosWeb.csproj|c:\\users\\janto\\onedrive\\estudios\\cibertec\\servwebi\\proyecto\\proyectoserviciosweb\\proyectoserviciosweb\\views\\ecommerce\\canasta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F59685B-2FEA-4B58-A1E7-6F020802DBE4}|ProyectoServiciosWeb\\ProyectoServiciosWeb.csproj|solutionrelative:proyectoserviciosweb\\views\\ecommerce\\canasta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F59685B-2FEA-4B58-A1E7-6F020802DBE4}|ProyectoServiciosWeb\\ProyectoServiciosWeb.csproj|c:\\users\\janto\\onedrive\\estudios\\cibertec\\servwebi\\proyecto\\proyectoserviciosweb\\proyectoserviciosweb\\views\\ecommerce\\portal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F59685B-2FEA-4B58-A1E7-6F020802DBE4}|ProyectoServiciosWeb\\ProyectoServiciosWeb.csproj|solutionrelative:proyectoserviciosweb\\views\\ecommerce\\portal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F59685B-2FEA-4B58-A1E7-6F020802DBE4}|ProyectoServiciosWeb\\ProyectoServiciosWeb.csproj|c:\\users\\janto\\onedrive\\estudios\\cibertec\\servwebi\\proyecto\\proyectoserviciosweb\\proyectoserviciosweb\\controllers\\ecommercecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F59685B-2FEA-4B58-A1E7-6F020802DBE4}|ProyectoServiciosWeb\\ProyectoServiciosWeb.csproj|solutionrelative:proyectoserviciosweb\\controllers\\ecommercecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F59685B-2FEA-4B58-A1E7-6F020802DBE4}|ProyectoServiciosWeb\\ProyectoServiciosWeb.csproj|c:\\users\\janto\\onedrive\\estudios\\cibertec\\servwebi\\proyecto\\proyectoserviciosweb\\proyectoserviciosweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F59685B-2FEA-4B58-A1E7-6F020802DBE4}|ProyectoServiciosWeb\\ProyectoServiciosWeb.csproj|solutionrelative:proyectoserviciosweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Canasta.cshtml",
+              "DocumentMoniker": "C:\\Users\\janto\\OneDrive\\Estudios\\Cibertec\\servWebI\\proyecto\\ProyectoServiciosWeb\\ProyectoServiciosWeb\\Views\\ECommerce\\Canasta.cshtml",
+              "RelativeDocumentMoniker": "ProyectoServiciosWeb\\Views\\ECommerce\\Canasta.cshtml",
+              "ToolTip": "C:\\Users\\janto\\OneDrive\\Estudios\\Cibertec\\servWebI\\proyecto\\ProyectoServiciosWeb\\ProyectoServiciosWeb\\Views\\ECommerce\\Canasta.cshtml",
+              "RelativeToolTip": "ProyectoServiciosWeb\\Views\\ECommerce\\Canasta.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T03:23:04.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Portal.cshtml",
+              "DocumentMoniker": "C:\\Users\\janto\\OneDrive\\Estudios\\Cibertec\\servWebI\\proyecto\\ProyectoServiciosWeb\\ProyectoServiciosWeb\\Views\\ECommerce\\Portal.cshtml",
+              "RelativeDocumentMoniker": "ProyectoServiciosWeb\\Views\\ECommerce\\Portal.cshtml",
+              "ToolTip": "C:\\Users\\janto\\OneDrive\\Estudios\\Cibertec\\servWebI\\proyecto\\ProyectoServiciosWeb\\ProyectoServiciosWeb\\Views\\ECommerce\\Portal.cshtml",
+              "RelativeToolTip": "ProyectoServiciosWeb\\Views\\ECommerce\\Portal.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T02:38:26.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ECommerceController.cs",
+              "DocumentMoniker": "C:\\Users\\janto\\OneDrive\\Estudios\\Cibertec\\servWebI\\proyecto\\ProyectoServiciosWeb\\ProyectoServiciosWeb\\Controllers\\ECommerceController.cs",
+              "RelativeDocumentMoniker": "ProyectoServiciosWeb\\Controllers\\ECommerceController.cs",
+              "ToolTip": "C:\\Users\\janto\\OneDrive\\Estudios\\Cibertec\\servWebI\\proyecto\\ProyectoServiciosWeb\\ProyectoServiciosWeb\\Controllers\\ECommerceController.cs",
+              "RelativeToolTip": "ProyectoServiciosWeb\\Controllers\\ECommerceController.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAtwH0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T02:33:06.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\janto\\OneDrive\\Estudios\\Cibertec\\servWebI\\proyecto\\ProyectoServiciosWeb\\ProyectoServiciosWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "ProyectoServiciosWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\janto\\OneDrive\\Estudios\\Cibertec\\servWebI\\proyecto\\ProyectoServiciosWeb\\ProyectoServiciosWeb\\appsettings.json",
+              "RelativeToolTip": "ProyectoServiciosWeb\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-11T02:30:57.825Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

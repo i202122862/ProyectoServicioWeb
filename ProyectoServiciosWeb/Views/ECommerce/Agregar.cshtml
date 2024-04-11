@@ -1,0 +1,74 @@
+﻿@model ProyectoServiciosWeb.Models.Producto
+
+@{
+    ViewBag.Title = "Supermercado Wong";
+}
+
+<h2 style="text-align:center">Supermercado Wong</h2>
+
+<div>
+    <h4>Producto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.idproducto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idproducto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.umedida)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.umedida)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.precio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.precio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.stock)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.stock)
+        </dd>
+
+    </dl>
+
+    <!--agregando el formulario para ingresar la cantidad de productos-->
+    <div>
+        @using (Html.BeginForm())
+        {
+            @Html.Hidden("id", Model.idproducto)
+            <div>
+                @Html.Label("Ingrese la cantidad")
+                @Html.TextBox("cantidad", 1, new { type = "number", min = 1, max = Model.stock })
+            </div>
+            <br />
+            <div>
+                <input type="submit" value="Registrar" class="btn btn-outline-primary" /> |
+                @Html.ActionLink("Retornar", "Portal", null, new { @class = "btn btn-outline-danger" })
+            </div>
+        }
+        <div>
+            @ViewBag.mensaje
+        </div>
+    </div>
+</div>
